@@ -64,6 +64,8 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
                                 <li><a href="{{ url('/my_status') }}"><i class="fa fa-btn fa-check-square"></i>Enrollment</a></i>
+                                <li><a href="{{ url('/dashboard') }}"><i class="fa fa-btn fa-check-square"></i>Manage Product</a></i>
+                                <li><a href="{{ url('/tasks') }}"><i class="fa fa-btn fa-check-square"></i>Moderate</a></i>
                             </ul>
                         </li>
                     @endif
